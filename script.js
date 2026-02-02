@@ -11,8 +11,8 @@ document.getElementById("formulario").addEventListener("submit", function(e) {
 
   document.getElementById("errorNombre").textContent = "";
   document.getElementById("errorEmail").textContent = "";
-  document.getElementById("errorMensaje").textContent = "";
-
+  document.getElementById("errorMensaje").textContent = ""; 
+  
   let valido = true;
 
   if (nombre === "") {
